@@ -32,7 +32,7 @@ The  design consists of two traffic lights one for each direction of the crossro
 | `ARduino UNO R3`              | 1             |
 | `Buzzer`                      | 2             |
 | `Connecting Wires`            | 
-| 'BreadBoard'.                 |
+| 'BreadBoard'.                 | 1             |
 
 ## Circuit Diagram
 
