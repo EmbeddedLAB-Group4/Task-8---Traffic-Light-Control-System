@@ -31,6 +31,7 @@ The  design consists of two traffic lights one for each direction of the crossro
 | `Resistors 50ohm to 150 ohm`  | 8             |
 | `ARduino UNO`                 | 1             |
 | `Buzzer`                      | 1             |
+|`Connecting Wires`             |               |
 
 ## Circuit Diagram
 
