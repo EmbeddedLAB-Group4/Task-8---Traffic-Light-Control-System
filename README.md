@@ -10,13 +10,13 @@ Design and development of an embedded systems application for simulating traffic
 
 The  design consists of two traffic lights one for each direction of the crossroad (Horizontal and Vertical). Each traffic will have three indicator lights and will be implemented using LEDs (Green, Yellow, Red). The system works in the following way:
 
-1. When the system starts, one traffic light will be green initially.
-2. Cars will randomly approach either side and will be simulated using queues coded in the controller.
-3. After a preset amount of time expires the traffic lights will switch.
-4. The traffic simulated using the queue for the corresponding light which is green is processed until a preset time.
-5. After this preset time the traffic light switches again and the cycle is repeated.
-6. Two buttons will be provided in system to simulate pedestrians and when the the buttons are pressed ......(to be filled)
-7. Preset time will be aloted to the pedestrians to cross the road and will be signaled using a beeper.  
+1. When the system starts, one traffic light will be green initially and the other will be red.
+2. Cars will randomly approach either side of the road and will be simulated using queues coded in the controller.
+3. The traffic simulated using the queue for the corresponding light which is green is processed until a preset time.
+4. After a preset amount of time expires the both traffic lights will become yellow for a very short time before switching and the light which was green will be red      and viceversa.
+6. After the preset time expires the traffic light switches again and the cycle is repeated.
+7. Two buttons will be provided in system to simulate pedestrians, if the button is pushed the above cycle is interrupted and traffic light corresponding to the road      which cuts the pedestrians path is turned red for a preset time so the pedestrians can pass.
+8. Preset time will be alloted to the pedestrians to cross the road and will be signaled using a beeper.  
 
 
 ## Components Required
@@ -28,14 +28,16 @@ The  design consists of two traffic lights one for each direction of the crossro
 | `LED Green`                   | 2             |
 | `LED Yellow`                  | 2             |
 | `Push button`                 | 2             |
-| `Resistors 50ohm to 150 ohm`  | 8             |
-| `ARduino UNO`                 | 1             |
-| `Buzzer`                      | 1             |
+| `Resistors 100 ohm`           | 8             |
+| `ARduino UNO R3`              | 1             |
+| `Buzzer`                      | 2             |
 |`Connecting Wires`             |               |
 
 ## Circuit Diagram
 
 ![This is an image](Images/Diagram.png)
+
+![This is an image](Images/Circuit Diagram.jpg)
 
 
 
