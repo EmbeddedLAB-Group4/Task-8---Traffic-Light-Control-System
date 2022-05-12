@@ -36,9 +36,9 @@ The  design consists of two traffic lights one for each direction of the crossro
 
 ## Circuit Diagram
 
-![This is an image](Images/Model.png)
+![This is an image](Images/Embedded lab project  (1).pdf)
 
-![This is an image](Images/Circuit_Diagram.jpg)
+![This is an image](Images/Embedded lab project  (1).jpg)
 
 ---
 
