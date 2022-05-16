@@ -42,6 +42,10 @@ The  design consists of two traffic lights one for each direction of the crossro
 
 ## Implementation
 
+### Demo video for Traffic Control System
+[![Watch the video](https://img.youtube.com/vi/3oL7V7qciwg/default.jpg)](https://youtu.be/3oL7V7qciwg)
+
+
 ### Implementation of Queues
 
 Initially both the signals are red  and pedestrians signals are also red and both queues are empty
