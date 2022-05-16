@@ -43,7 +43,11 @@ The  design consists of two traffic lights one for each direction of the crossro
 ## Implementation
 
 ### Demo video for Traffic Control System
-[![Watch the video](https://img.youtube.com/vi/3oL7V7qciwg/default.jpg)](https://youtu.be/3oL7V7qciwg)
+
+
+
+https://user-images.githubusercontent.com/104303685/168683602-431e8adc-cb27-4393-8422-d93f9e89fcbd.mp4
+
 
 
 ### Implementation of Queues
