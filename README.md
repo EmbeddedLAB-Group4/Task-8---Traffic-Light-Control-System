@@ -42,10 +42,26 @@ The  design consists of two traffic lights one for each direction of the crossro
 
 ## Implementation
 
-Initial scenario
+### Implementation of Queues
+
+Initially both the signals are red  and pedestrians signals are also red and both queues are empty
+
+Then one traffic signal (signal 1) is red and the other traffic signal (signal 2) is green. Since signal 1 is red we push a preset number of vehicles (in this case 5) to the queue and since signal 2 has an empty queue we dont have any vehicles to pop so the queue for signal 2 is zero, both pedestriant signals are red.
+
+![This is an image](Images/Scenario1.jpg)
 ![This is an image](Images/Signals1.jpeg)
+
+After this scenario both the traffic signals turn yellow for a very brief time and then the signals are exchanged from the previous scenario signal 1 is green and signal 2 is turned red hence the queues are also interchanged, 5 vehicles are poped from the queue of  in traffic signal 1 and 5 are added to traffic signal 2. This cycle is repeated in turns with exchange of signals, both pedestriant signals are red.
+
+![This is an image](Images/Scenario2.jpg)
+![This is an image](Images/Scenario3.jpg)
 ![This is an image](Images/Signals2.jpeg)
+
+When the pedestriants button is pushed the traffic signal corresponding to the road which cuts the pedestrians path is turned red (signal 2) and corresponding pedestriant light is green for a preset time so the pedestrians can pass and the other traffic signal (signal 1) is turned green and the corresponding pedestriant light is red. A preset amount of time (in this case its 3 sec) is provided to simulate pedestrianst crossing the road, mean while in signal 2 we push 3 more vehicles and we pop 3 vehicles from the signal 1 but in our particular scenario there is nothing to pop hence the queue value is zero. If both the pedestriants buttons are pushed then both the traffic lights are red and 3 vehicles are poped from both the queues.
+
+![This is an image](Images/Scenario4.jpg)
 ![This is an image](Images/Signals3.jpeg)
+![This is an image](Images/Scenario5.jpg)
 
 ---
 
