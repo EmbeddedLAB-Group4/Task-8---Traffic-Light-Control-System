@@ -40,6 +40,13 @@ The  design consists of two traffic lights one for each direction of the crossro
 
 ![This is an image](Images/Arduino_connection_Traffic_Light.png)
 
+## Implementation
+
+Initial scenario
+![This is an image](Images/Signals1.jpeg)
+![This is an image](Images/Signals2.jpeg)
+![This is an image](Images/Signals3.jpeg)
+
 ---
 
 
