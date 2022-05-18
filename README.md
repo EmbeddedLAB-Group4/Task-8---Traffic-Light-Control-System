@@ -30,7 +30,7 @@ The  design consists of two traffic lights one for each direction of the crossro
 | `Push button`                 | 2             |
 | `Resistors 100 ohm`           | 12            |
 | `ARduino UNO R3`              | 1             |
-| `Buzzer`                      | 2             |
+| `Buzzer`                      | 1             |
 | `Connecting Wires`            |               |
 | `BreadBoard`                  | 1             |
 
